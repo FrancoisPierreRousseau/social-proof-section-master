@@ -67,6 +67,8 @@ section {
   @media screen and (min-width: 455px) {
     section {
       padding: 3em; } }
+  section:first-child {
+    margin-top: 2em; }
 
 .icon {
   height: 2em;
@@ -129,16 +131,16 @@ section {
   text-align: center;
   display: flex;
   flex-direction: column; }
-  @media screen and (min-width: 957px) {
+  @media screen and (min-width: 960px) {
     .section-head {
       flex-direction: row; } }
-  @media screen and (min-width: 957px) {
+  @media screen and (min-width: 960px) {
     .section-head__description {
       text-align: left;
       max-width: 45%; } }
   .section-head__card {
     width: 100%; }
-    @media screen and (min-width: 957px) {
+    @media screen and (min-width: 960px) {
       .section-head__card {
         flex-grow: 1;
         display: flex;

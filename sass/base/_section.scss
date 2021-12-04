@@ -3,5 +3,9 @@ section {
     padding: 3em;
   }
 
+  &:first-child{
+    margin-top: 2em;
+  }
+
   padding-bottom: 3em;
 }
