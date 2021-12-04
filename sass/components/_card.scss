@@ -1,0 +1,48 @@
+.card {
+  background-color: $c-secondary-2;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  & > .tag{
+    align-self: normal;
+  }
+
+  @media screen and (min-width: 455px) {
+    flex-direction: row;
+  }
+
+  &__icon {
+    margin-bottom: .3em;
+
+    @media screen and (min-width: 455px) {
+      margin-right: 1em;
+      margin-bottom: 0;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    color: $c-primary-1;
+    margin-bottom: 0;
+  }
+
+  &--purple{
+    background-color: $c-primary-1;
+    flex-direction: column;
+    padding: 2em;
+
+    & > .tag{
+      margin-bottom: 1.5em;
+    }
+
+    & > p {
+      color: $c-secondary-2;
+      margin-bottom: 0;
+    }
+  }
+}

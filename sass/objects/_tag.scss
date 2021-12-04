@@ -1,0 +1,21 @@
+.tag {
+  display: flex;
+  align-items: center;
+
+  & > div:not(:first-child) {
+    margin-left: 1.5em;
+  }
+
+  &__author > span {
+    display: block;
+  }
+
+  &__author > span:first-child {
+    font-weight: 600;
+    color: $c-secondary-2;
+  }
+
+  &__author > span:last-child {
+    color: $c-primary-2;
+  }
+}
